@@ -2,7 +2,7 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: my-static3-web-bucket
+      BucketName: my-website1-bucket
       AccessControl: PublicRead
       WebsiteConfiguration:
         IndexDocument: index.html
@@ -17,3 +17,4 @@ Resources:
           Principal: '*'
           Action: s3:GetObject
           Resource: !Join ['', ['arn:aws:s3:::', !Ref S3Bucket, '/*']]
+
