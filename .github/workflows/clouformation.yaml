@@ -20,7 +20,7 @@ jobs:
           AWS_DEFAULT_REGION: us-east-1
         run: |
           aws cloudformation deploy \
-            --template-file ./single-tier-app.yml \
+            --template-file ./single-tier-app.yaml \
             --stack-name web-stack1 \
             --capabilities CAPABILITY_NAMED_IAM \
             --parameter-overrides \
