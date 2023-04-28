@@ -2,7 +2,7 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: Lekunga-website-bucket
+      BucketName: lekunga-website-bucket
       PublicAccessBlockConfiguration:
           BlockPublicAcls: false
       OwnershipControls:
