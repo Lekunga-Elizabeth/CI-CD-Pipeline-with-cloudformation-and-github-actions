@@ -17,7 +17,7 @@ jobs:
       run: |
         aws cloudformation deploy \
           --template-file ./single-tier-app.yaml \
-          --stack-name class-stack \
+          --stack-name class-stack2 \
           --capabilities CAPABILITY_NAMED_IAM \
           --parameter-overrides \
             S3BucketName=lekunga-website-bucket \
