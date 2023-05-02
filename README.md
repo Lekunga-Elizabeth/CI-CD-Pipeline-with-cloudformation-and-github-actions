@@ -4,8 +4,9 @@ steps are below
 - creat a repository
 - creat a cloudformation template
 - push the code
+- Before pushing the code make sure you open your aws console and give an IAM cloudformation full access permision to the user .
 - add permision from your aws console
--connect your aws to your github by adding the access key and the secret key of your aws account. 
+-c onnect your aws to your github by adding the access key and the secret key of your aws account. 
     opening your github account, open the repository you are working with, go to setting, go to secret then take action, add your access key and secret key.
 - under my cloudformation.yaml i have just edited the bucket name, and the stack name
 -test the project by checking your aws console to see if it created the stack 
